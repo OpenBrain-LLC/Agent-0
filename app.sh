@@ -90,7 +90,7 @@ else
     echo "$CONFIG_FILE already exists; leaving as-is."
 fi
 
-pip install ddgs
+pip install ollama groq
 echo "Setup complete."
 clear
 python __main__.py

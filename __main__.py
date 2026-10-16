@@ -1315,7 +1315,6 @@ def main():
           f"model: {STATE.current_model()}    search: duckduckgo{RESET}")
     print(f"{GRAY}memory:   {MEMORY_PATH}{RESET}")
     print(f"{GRAY}session:  {SESSION_PATH}{RESET}")
-    print(f"{GRAY}note:     shell always asks [Y]es/[N]o{RESET}\n")
     history = _new_history()
     while True:
         _check_schedule(history)
